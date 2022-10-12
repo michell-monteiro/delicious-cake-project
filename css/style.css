@@ -5,6 +5,42 @@
     margin: 0;
 }
 
+:root {
+    --var-color-logo: #CA6736;
+}
+
+li {
+    list-style: none;
+}
+
 html {
     scroll-behavior: smooth;
+}
+body {
+    font-family: 'Baloo 2', cursive, sans-serif;;
+}
+
+/* Cabeçalho de navegação */
+.menu-bg{
+    background-color: var(--var-color-logo);
+}
+.menu {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-nav li {
+    padding-left: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
 }
