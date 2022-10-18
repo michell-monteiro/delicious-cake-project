@@ -63,6 +63,8 @@ body {
 /* Área 2: Doces */
 .bolos-bg {
     background-color: #f08854;
+    max-width: 960px;
+    margin: 0 auto;
 }
 .bolos-area {
     display: flex;
